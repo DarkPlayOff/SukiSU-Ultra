@@ -85,7 +85,6 @@
     <string name="launch_app" formatted="false">Запустить</string>
     <string name="force_stop_app" formatted="false">Остановить принудительно</string>
     <string name="restart_app">Перезапустить</string>
-    <string name="failed_to_update_sepolicy">Не удалось обновить правила SELinux для %s</string>
     <string name="module_changelog">Список изменений</string>
     <string name="settings_profile_template">Шаблон Профиля Приложения</string>
     <string name="settings_profile_template_summary">Настроить локальные и онлайн Профили Приложения</string>

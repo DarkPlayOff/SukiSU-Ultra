@@ -9,7 +9,7 @@
     <string name="home_superuser_count">Суперпользователи: %d</string>
     <string name="home_module_count">Модули: %d</string>
     <string name="home_unsupported">Не поддерживается</string>
-    <string name="home_unsupported_reason">Не обнаружен драйвер KernelSU, неправильное ядро?.</string>
+    <string name="home_unsupported_reason">Не обнаружен драйвер KernelSU, неправильное ядро?</string>
     <string name="home_kernel">Версия ядра</string>
     <string name="home_susfs">SuSFS: %s</string>
     <string name="home_susfs_version">Версия SuSFS</string>
@@ -21,7 +21,7 @@
     <string name="selinux_status_enforcing">Принудительный</string>
     <string name="selinux_status_permissive">Разрешающий</string>
     <string name="selinux_status_unknown">Неизвестно</string>
-    <string name="superuser">SU пользователь</string>
+    <string name="superuser">Суперпользователь</string>
     <string name="module_failed_to_enable">Не удалось включить модуль %s</string>
     <string name="module_failed_to_disable">Не удалось отключить модуль %s</string>
     <string name="module_empty">Нет установленных модулей</string>
@@ -110,7 +110,7 @@
     <string name="module_changelog_failed">Не удалось получить список изменений: %s</string>
     <string name="settings_check_update">Проверять обновления</string>
     <string name="settings_check_update_summary">Автоматически проверять обновления при запуске приложения</string>
-    <string name="grant_root_failed">Не удалось выдать рут права!</string>
+    <string name="grant_root_failed">Не удалось выдать root права!</string>
     <string name="action">Действие</string>
     <string name="open">Открыть</string>
     <string name="enable_web_debugging">Активировать отладку WebView</string>
@@ -140,7 +140,7 @@
     <string name="status_supported">Поддерживается</string>
     <string name="status_not_supported">Не поддерживается</string>
     <string name="status_unknown">Неизвестный</string>
-    <string name="sus_su_mode">Режим Sus Su:</string>
+    <string name="sus_su_mode">Режим Sus SU:</string>
     <!-- Module related -->
     <string name="module_install_confirm">Подтвердите установку модуля %1$s？</string>
     <string name="unknown_module">неизвестный модуль</string>
@@ -175,21 +175,21 @@
     <string name="settings_card_alpha">Прозрачность панели навигации</string>
     <string name="settings_restore_default">Восстановить настройки по умолчанию</string>
     <string name="home_android_version">Версия Android</string>
-    <string name="home_device_model">Модель устойства</string>
-    <string name="su_not_allowed">Выдача супер пользователя для %s не разрешено</string>
+    <string name="home_device_model">Модель устройства</string>
+    <string name="su_not_allowed">Выдача root прав для %s не разрешено</string>
     <string name="settings_disable_su">Отлючить совместимость с su</string>
     <string name="settings_disable_su_summary">Временно отсключить возможность приложениям получать права root через ⁠команду su (существующие процессы с правами root не будут затронуты).</string>
     <string name="using_mksu_manager">Ты используешь бета версию менеджера SukiSU</string>
     <string name="module_install_multiple_confirm">Ты уверен что хочешь установить выбранные %d модули?</string>
     <string name="module_install_multiple_confirm_with_names">Ты уверен что хочешь установить выбранные %1$d модули? \n\n%2$s</string>
-    <string name="more_settings">Расширенные настройки</string>
+    <string name="more_settings">Дополнительные настройки</string>
     <string name="selinux">SELinux</string>
     <string name="selinux_enabled">Включён</string>
     <string name="selinux_disabled">Выключен</string>
     <string name="simple_mode">Простой режим</string>
     <string name="simple_mode_summary">Скрывает ненужные карточки когда активирован</string>
     <string name="hide_kernel_kernelsu_version">Скрыть версию ядра</string>
-    <string name="hide_kernel_kernelsu_version_summary">Скрыть версию ядра</string>
+    <string name="hide_kernel_kernelsu_version_summary">Скрывает версию ядра</string>
     <string name="hide_other_info">Скрыть другую информацию</string>
     <string name="hide_other_info_summary">Скрыть информацию о количестве супер пользователей, модулей и модулей KPM на главной странице</string>
     <string name="hide_susfs_status">Скрыть состояние SuSFS</string>
@@ -199,7 +199,7 @@
     <string name="theme_mode">Тема</string>
     <string name="theme_follow_system">Системная</string>
     <string name="theme_light">Светлая</string>
-    <string name="theme_dark">Тёная</string>
+    <string name="theme_dark">Тёмная</string>
     <string name="manual_hook">Ручное встраивание</string>
     <string name="dynamic_color_title">Динамические цвета</string>
     <string name="dynamic_color_summary">Динамические цвета используют системную тему</string>
@@ -217,14 +217,14 @@
     <string name="horizon_kernel_summary">Установить AnyKernel3 файл ядра</string>
     <string name="root_required">Необходимы root права</string>
     <string name="copy_failed">Не удалось скопировать файлы </string>
-    <string name="reboot_complete_title">Очистка заверена</string>
-    <string name="reboot_complete_msg">Следует ли немедленно перезагрузить？</string>
+    <string name="reboot_complete_title">Очистка завершена</string>
+    <string name="reboot_complete_msg">Перезагрузить устройство？</string>
     <string name="yes">Да</string>
     <string name="no">Нет</string>
     <string name="failed_reboot">Не удалось перезагрузить</string>
     <string name="batch_authorization">Расширенные возможности</string>
     <string name="batch_cancel_authorization">Отозвать</string>
-    <string name="backup">Резервноя копия</string>
+    <string name="backup">Резервная копия</string>
     <string name="color_yellow">Жёлтый</string>
     <string name="kpm_title">KPM</string>
     <string name="kpm_empty">Не установлено никаких модулей ядра</string>
@@ -233,7 +233,7 @@
     <string name="kpm_uninstall">Удалить</string>
     <string name="kpm_uninstall_success">Успешно удалено</string>
     <string name="kpm_uninstall_failed">Не удалось удалить</string>
-    <string name="kpm_install">Install</string>
+    <string name="kpm_install">Установить</string>
     <string name="kpm_install_success">Загрузка kpm модуля завершена</string>
     <string name="kpm_install_failed">Загрузка kmp модуля не удалась</string>
     <string name="kpm_args">Параментры</string>
@@ -253,11 +253,11 @@
     <string name="kernel_not_enabled">Ядро не настроено</string>
     <string name="custom_settings">Собственные настройки</string>
     <string name="kpm_install_mode">Установить KPM</string>
-    <string name="kpm_install_mode_load">Загрузить</string>
-    <string name="kpm_install_mode_embed">Вставить</string>
+    <string name="kpm_install_mode_load">Load</string>
+    <string name="kpm_install_mode_embed">Embedded</string>
     <string name="kpm_install_mode_description">Пожалуйста выберите: %1\$s Режим установки модуля \n\nLoad: Временно загрузить модуль \nEmbedded: Навсегда установить в систему</string>
     <string name="log_failed_to_check_module_file">Не удалось проверить существование файла модуля</string>
-    <string name="snackbar_failed_to_check_module_file">Невозможно проверить если файл модуля существует</string>
+    <string name="snackbar_failed_to_check_module_file">Не удалось проверить если файл модуля существует</string>
     <string name="confirm_uninstall_title">Подтвердите удаление</string>
     <string name="confirm_uninstall_confirm">Удалить</string>
     <string name="confirm_uninstall_dismiss">Отмена</string>
@@ -267,7 +267,7 @@
     <string name="confirm_uninstall_content">Выбранный KPM будет удалён: %s</string>
     <string name="settings_susfs_toggle_summary">Отключает хуки kprobe созданные KernelSU, вместо этого используются встроенные хуки, что похоже на метод перехвата ядра без GKI.</string>
     <string name="image_editor_title">Изменить фоновое изображение</string>
-    <string name="image_editor_hint">Используй два пальца чтобы приближать изображение, и один палец чтобы изменить его положение</string>
+    <string name="image_editor_hint">Используй два пальца чтобы приблизить изображение, и один палец чтобы изменить его положение</string>
     <string name="background_image_error">Не удалось загрузить изображение</string>
     <string name="reprovision">Переподготовка</string>
     <!-- Kernel Flash Progress Related -->
@@ -303,11 +303,11 @@
     <string name="tool_version_log">Используется инструмент установки：%1$s</string>
     <string name="configuration">Настройка</string>
     <string name="app_settings">Настройки приложения</string>
-    <string name="tools">Tools</string>
+    <string name="tools">Инстументы</string>
     <string name="currently_selected">Текущий</string>
     <!--  String resources used in SuperUser -->
     <string name="clear">Удаления</string>
-    <string name="apps_with_root">Приложение с правами суперпользователя</string>
+    <string name="apps_with_root">Приложения с root правами</string>
     <string name="apps_with_custom_profile">Изменить настройки приложения</string>
     <string name="other_apps">Другие приложения</string>
     <string name="no_apps_found">Приложение не найдено</string>
@@ -316,9 +316,9 @@
     <string name="selinux_change_failed">Не удалось изменить состояние SELinux  </string>
     <string name="advanced_settings">Расширенные настройки</string>
     <string name="appearance_settings">Настроить панель инстументов</string>
-    <string name="back">Венуться назад</string>
-    <string name="expand">Be in full swing</string>
-    <string name="collapse">put away</string>
+    <string name="back">Вернуться назад</string>
+    <string name="expand">Расширять</string>
+    <string name="collapse">убрать</string>
     <string name="susfs_enabled">SuSFS включён</string>
     <string name="susfs_disabled">SuSFS выключен</string>
     <string name="background_set_success">Фон успешно изменён</string>
@@ -334,31 +334,31 @@
     <string name="use_webuix_eruda_summary">Встроит консоль отладки WebUI X чтобы сделать отладку легче. Требует включённую веб отладку.</string>
     <!-- DPI setting related strings -->
     <string name="dpi_settings">Настройки DPI</string>
-    <string name="app_dpi_title">Применить DPI</string>
+    <string name="app_dpi_title">DPI приложения</string>
     <string name="app_dpi_summary">Изменить плотность экрана только для этого приложения</string>
     <string name="dpi_size_small">Маленький </string>
     <string name="dpi_size_medium">Средний </string>
     <string name="dpi_size_large">Большой</string>
     <string name="dpi_size_extra_large">Огромный</string>
     <string name="dpi_size_custom">Настраиваемый</string>
-    <string name="dpi_apply_settings">Applying DPI settings</string>
+    <string name="dpi_apply_settings">Применить настройки DPI</string>
     <string name="dpi_confirm_title">Применить настройки DPI</string>
     <string name="dpi_confirm_message">Изменить настройки DPI с %1$d на %2$d?</string>
     <string name="dpi_confirm_summary">Приложение нужно перезагрузить для применения настроек, настройки применяются только для приложения</string>
-    <string name="dpi_applied_success">DPI установлен на %1$d, вступит в силу после перезагрузки</string>
+    <string name="dpi_applied_success">DPI установлен на %1$d, изменения вступят в силу после перезагрузки</string>
     <!-- Language settings related strings -->
     <string name="language_setting">Язык</string>
     <string name="language_follow_system">Системный</string>
-    <string name="language_changed">Язык изменён, перезагрузи для применения настроек</string>
+    <string name="language_changed">Язык изменён, перезагрузи приложение для применения настроек</string>
     <string name="settings_card_dim">Изменение затемнения карточек</string>
     <!-- Super User Related -->
     <string name="scroll_to_top">Вверх</string>
     <string name="scroll_to_bottom">Вниз</string>
-    <string name="scroll_to_top_description">Прокрутить до верха</string>
-    <string name="scroll_to_bottom_description">Прокрутить до низа</string>
+    <string name="scroll_to_top_description">Прокрутить вверх</string>
+    <string name="scroll_to_bottom_description">Прокрутить вниз</string>
     <string name="authorized">авторизован</string>
     <string name="unauthorized">не авторизован</string>
     <string name="selected">Выбранные</string>
-    <string name="select">опция</string>
+    <string name="select">выбрать</string>
     <string name="profile_umount_modules_disable">Отключить собственный модуль удаления</string>
 </resources>
